@@ -1,26 +1,26 @@
 all:
   compiler_count: '27'
-  count: 334323
-  parameter_count: '722'
+  count: 334346
+  parameter_count: '723'
   version: all
 develop:
   compilers:
-    apple-clang@15.0.0: 98513
+    apple-clang@15.0.0: 98728
     cce@15.0.1: 32033
     clang@14.0.0: 24
-    gcc@10.2.1: 16458
+    gcc@10.2.1: 16501
     gcc@10.3.0: 17564
     gcc@10.5.0: 18
     gcc@11.1.0: 208142
     gcc@11.2.0: 46
-    gcc@11.4.0: 1335606
-    gcc@12.3.0: 13055
-    gcc@7.3.1: 178184
-    gcc@7.5.0: 72249
+    gcc@11.4.0: 1336092
+    gcc@12.3.0: 13318
+    gcc@7.3.1: 178252
+    gcc@7.5.0: 72292
     gcc@9.4.0: 289204
     oneapi@2023.2.0: 4452
     oneapi@2024.0.0: 250188
-  count: 51111
+  count: 51134
   parameters:
     ARKODE: 201
     CVODE: 201
@@ -29,7 +29,7 @@ develop:
     IDAS: 201
     KINSOL: 201
     X: 4
-    abi: 47902
+    abi: 47923
     addr2line: 6
     adiak: 150
     adios2: 1000
@@ -53,11 +53,11 @@ develop:
     asphere: 8
     assimp: 11
     async_api: 357
-    atomic: 2704
+    atomic: 2709
     atrig_erf: 13
     auto-mount: 166
     auto_swap: 7
-    avx2: 1818
+    avx2: 1821
     aztec: 546
     backend: 2854
     basker: 76
@@ -67,23 +67,23 @@ develop:
     bitgrooming: 17
     blas: 232
     blosc: 1017
-    blosc2: 748
+    blosc2: 750
     blt_find_mpi: 1130
     bocs: 8
     body: 8
-    boost: 1615
+    boost: 1617
     boostsys: 52
     bootstrap: 102
     bpm: 8
     brownian: 8
-    bsws: 1302
+    bsws: 1304
     build_edition: 319
-    build_system: 2515736
-    build_type: 114829
+    build_system: 2516854
+    build_type: 114930
     buildtype: 2842
     butterflypack: 107
-    bz2: 38891
-    bzip2: 41576
+    bz2: 38908
+    bzip2: 41596
     bzlib: 253
     c: 901
     c_interface: 107
@@ -92,7 +92,7 @@ develop:
     catalyst: 195
     cblas: 19
     ccitt: 1013
-    certs: 45845
+    certs: 45863
     cflags: 4
     cg-dna: 8
     cg-spica: 8
@@ -100,23 +100,23 @@ develop:
     cgns: 21
     ch3_rank_bits: 258
     checksum: 336
-    chrono: 2692
+    chrono: 2697
     cinema: 107
-    clang: 1155
+    clang: 1166
     clanguage: 552
     class2: 8
     cntl_base: 60
     colloid: 8
-    column_metadata: 39007
+    column_metadata: 39021
     colvars: 8
-    compat: 48061
+    compat: 48083
     compile_type: 24
-    compiler-rt: 1174
+    compiler-rt: 1185
     complex: 126
     components: 1366
     compress: 8
-    compress_debug_sections: 1134
-    compression: 43755
+    compress_debug_sections: 1142
+    compression: 43774
     compute: 96
     conduit: 402
     conduits: 18
@@ -129,38 +129,38 @@ develop:
     core: 17
     coreshell: 8
     cp2k: 39
-    cpanm: 47178
+    cpanm: 47199
     cpp: 145
     cpp14: 46
     cpp_compat: 45
     cpp_unstable: 45
     cross: 42
-    crypt: 38876
-    crypto: 4309
+    crypt: 38890
+    crypto: 4319
     cstd: 201
-    ctypes: 38876
-    cuda: 6503
-    cuda_arch: 6407
+    ctypes: 38890
+    cuda: 6511
+    cuda_arch: 6415
     cuda_lambda: 253
     cuda_native: 72
-    cudnn: 480
+    cudnn: 481
     curl: 548
-    curses: 40598
-    cxx: 48555
+    curses: 40616
+    cxx: 48578
     cxx_std: 455
     cxxflags: 18
-    cxxstd: 9475
+    cxxstd: 9485
     darshan: 107
     dataman: 436
     datatype-engine: 8767
-    date_time: 1719
-    dbm: 38876
+    date_time: 1722
+    dbm: 38890
     debugalloc: 158
-    default: 1741
+    default: 1744
     default_cuda: 10
     default_library: 2842
     denoiser: 83
-    dev: 621
+    dev: 627
     development_files: 319
     device: 8767
     dielectric: 8
@@ -168,7 +168,7 @@ develop:
     dimensions: 213
     dims: 96
     dipole: 8
-    distributed: 1057
+    distributed: 1059
     dlaf: 56
     doc: 13
     docs: 1366
@@ -182,14 +182,14 @@ develop:
     drude: 8
     dtcmp: 14
     dtype: 46
-    dynamic_dispatch: 10169
-    dynamic_extensions: 39007
+    dynamic_dispatch: 10175
+    dynamic_extensions: 39021
     dynamic_kernels: 137
     eff: 8
-    eigen: 140
+    eigen: 142
     electrode: 8
     elf: 87
-    envmods: 1367
+    envmods: 1373
     epetra: 546
     epetraext: 546
     epetraextbtf: 76
@@ -199,7 +199,7 @@ develop:
     example: 346
     examples: 2115
     examples-install: 201
-    exception: 2988
+    exception: 2993
     exceptions: 119
     execspace_cuda: 136
     execspace_openmp: 136
@@ -209,64 +209,64 @@ develop:
     exercises: 621
     expat: 73
     explicit_template_instantiation: 546
-    external-libfabric: 106
+    external-libfabric: 108
     extra-compute: 8
     extra-dump: 8
     extra-fix: 8
     extra-molecule: 8
     extra-pair: 8
-    fabrics: 13379
+    fabrics: 13383
     faodel: 107
-    fbgemm: 1441
+    fbgemm: 1444
     features: 1
     fep: 8
-    fetcher: 1569
+    fetcher: 1578
     fftw: 50
     fftw_precision: 82
     fides: 71
     file_lock: 871
     file_systems: 258
-    filesystem: 1974
+    filesystem: 1977
     fill: 48
     fltk: 21
     fms: 119
     fonts: 48
     format-nongpl: 1094
-    fortran: 26939
+    fortran: 26945
     fpic: 415
     fpzip: 129
     frameworks: 59
     ft: 55
-    fts: 39007
+    fts: 39021
     gas: 41
-    generator: 91279
+    generator: 91363
     generic-math: 66
-    generic-names: 106
+    generic-names: 108
     generic_coroutines: 60
     geos: 73
     ginkgo: 11
-    git: 40598
+    git: 40616
     gl: 685
-    gloo: 1057
+    gloo: 1059
     glx: 864
     gmp: 21
     gmsh: 11
     gmxapi: 141
     gobject: 55
-    gold: 2085
+    gold: 2101
     gotcha: 150
     gotype: 546
     gpl: 253
     gpu_precision: 82
     granular: 8
-    graph: 1988
+    graph: 1991
     gsl: 44
     gslib: 18
-    gssapi: 15204
+    gssapi: 15207
     gui: 34
     hdf5: 3449
     hdf5_compat: 284
-    headers: 1134
+    headers: 1142
     hiop: 28
     hip-platform: 37
     hip_target: 16
@@ -275,12 +275,12 @@ develop:
     host: 30
     hpctoolkit: 70
     http: 667
-    https: 1434
+    https: 1440
     hwloc: 282
     hydra: 8767
     hypre: 550
     hzip: 112
-    iconv: 2599
+    iconv: 2603
     ifpack: 546
     ifpack2: 454
     ilp64: 23
@@ -293,14 +293,14 @@ develop:
     intrepid: 532
     intrepid2: 532
     io: 87
-    iostreams: 1731
+    iostreams: 1734
     isorropia: 532
     ispc: 99
     jemalloc_prefix: 48
     jpeg: 4361
     json: 24
     kernel_lib: 30
-    kineto: 1441
+    kineto: 1444
     kits: 319
     kokkos: 779
     kspace: 82
@@ -309,16 +309,16 @@ develop:
     lapack: 10
     lapacke: 20
     layouts: 136
-    ld: 1121
+    ld: 1129
     legacylaunchers: 838
     lepton: 8
     level_zero: 18
-    lex: 3064
+    lex: 3066
     lib: 178
-    libbsd: 41183
-    libcatalyst: 952
+    libbsd: 41194
+    libcatalyst: 954
     libcurl: 63
-    libcxx: 1174
+    libcxx: 1185
     libdeflate: 63
     libdistributed: 17
     libdl: 60
@@ -327,46 +327,46 @@ develop:
     libiberty: 892
     libidn2: 137
     libint: 100
-    libomptarget: 948
-    libs: 153503
+    libomptarget: 954
+    libs: 153606
     libsodium: 3618
     libssh2: 68
-    libunwind: 1569
+    libunwind: 1580
     libxc: 100
-    libxml2: 94559
+    libxml2: 94602
     libxsmm: 18
-    libyaml: 4174
+    libyaml: 4177
     libyogrt: 60
     linear_solvers: 185
-    link_llvm_dylib: 35
-    lizard: 810
-    lld: 990
-    lldb: 971
+    link_llvm_dylib: 37
+    lizard: 813
+    lld: 999
+    lldb: 980
     llvm: 756
-    llvm_dylib: 1174
+    llvm_dylib: 1185
     lmax: 100
-    locale: 1625
+    locale: 1628
     localstatedir: 201
-    locking: 10169
-    log: 1668
+    locking: 10175
+    log: 1671
     logging: 209
     logging-level: 201
     logging-mpi: 66
     logluv: 1013
-    lua: 1034
+    lua: 1043
     lualinks: 62
-    lz4: 952
-    lzma: 38876
+    lz4: 955
+    lzma: 38890
     lzo: 90
     lzw: 1013
     machdyn: 8
-    magma: 480
+    magma: 481
     make_target: 24
     malloc: 223
-    man: 13182
-    man_pages: 1773
+    man: 13185
+    man_pages: 1774
     manybody: 82
-    math: 1825
+    math: 1828
     max_cpu_count: 114
     max_dims: 60
     max_fields: 60
@@ -379,37 +379,37 @@ develop:
     memspace_cudaspace: 136
     memspace_cudauvmspace: 136
     mesont: 8
-    metal: 384
+    metal: 385
     metis: 1089
     mfem: 84
-    mgard: 777
+    mgard: 779
     minitensor: 532
     misc: 8
-    mkldnn: 962
+    mkldnn: 964
     ml: 372
     ml-iap: 8
     ml-pod: 8
     ml-snap: 8
-    mmap: 1434
+    mmap: 1440
     mmg: 21
     mofff: 8
     molecule: 82
     mpc: 18
     mpfr: 18
-    mpi: 23553
-    mpi_family: 1088
+    mpi: 23560
+    mpi_family: 1091
     mpithreadmultiple: 96
-    mps: 384
+    mps: 385
     muelu: 372
-    multibyte: 16019
-    multicompat: 468
+    multibyte: 16037
+    multicompat: 469
     multiple_headers: 627
-    multithreaded: 3349
+    multithreaded: 3354
     muparser: 11
     native: 24
     nblib: 141
-    nccl: 542
-    ncurses: 23308
+    nccl: 543
+    ncurses: 23325
     nesting: 24
     netaccessor: 86
     netcdf: 84
@@ -418,33 +418,33 @@ develop:
     netmod: 8767
     network: 241
     networking: 114
-    new_strategies: 48061
+    new_strategies: 48083
     next: 1013
-    nghttp2: 32181
+    nghttp2: 32198
     nlopt: 8
-    nls: 13422
-    nnpack: 962
+    nls: 13425
+    nnpack: 964
     nodepfail: 370
     nox: 532
-    numa: 1057
-    numpy: 1441
+    numa: 1059
+    numpy: 1444
     oce: 32
     offsets: 136
     ofi: 336
-    only64bit: 1083
-    onnx_ml: 1441
-    opcode: 47178
-    open: 47178
+    only64bit: 1085
+    onnx_ml: 1444
+    opcode: 47199
+    open: 47199
     opencl: 10
     opengl: 898
     opengl2: 435
     openlibm: 10
-    openmp: 8414
+    openmp: 8431
     openmp-package: 8
     openmp_max_threads: 141
     openpmd: 291
-    openssl: 3224
-    opt: 48069
+    openssl: 3226
+    opt: 48091
     optimal: 80
     optimize: 851
     optional_modules: 33
@@ -455,7 +455,7 @@ develop:
     outlev: 30
     output_level: 60
     override: 128
-    ownlibs: 21870
+    ownlibs: 21887
     p4est: 11
     packbits: 1013
     padding: 128
@@ -464,8 +464,9 @@ develop:
     parmetis: 1805
     particles: 55
     patch: 54
-    patches: 403118
-    pci: 15022
+    patches: 403297
+    pci: 15030
+    pcre2: 3
     pdb: 7
     pdf: 55
     pdsh: 46
@@ -473,55 +474,55 @@ develop:
     perf: 450
     performance: 1547
     peri: 8
-    perl: 13182
+    perl: 13185
     petsc: 86
     pfe: 46
     phalanx: 532
     phonon: 8
-    pic: 229208
+    pic: 229307
     piro: 456
     platform-introspection: 11
     plots: 91
     plugin: 8
-    plugins: 1218
+    plugins: 1226
     pmi: 8767
-    pmi_backwards_compatibility: 3126
+    pmi_backwards_compatibility: 3128
     pmix: 21
     pnetcdf: 179
-    png: 1522
+    png: 1524
     poems: 8
-    polly: 971
-    precision: 1295
+    polly: 980
+    precision: 1296
     precompile: 10
     process_managers: 258
-    program_options: 1776
-    programs: 43583
+    program_options: 1779
+    programs: 43601
     proj: 83
     psatd: 96
     pthreads: 430
-    pyexpat: 38876
+    pyexpat: 38890
     pymi: 38
     pymi_static_tpls: 38
-    python: 2089
+    python: 2091
     python3: 38
     python_bindings_generator: 38
-    pythoncmd: 38876
-    pyverbs: 1773
+    pythoncmd: 38890
+    pyverbs: 1774
     qed: 96
     qeq: 8
-    qnnpack: 1057
+    qnnpack: 1059
     qt: 25
     raja: 360
-    random: 1548
+    random: 1551
     random_access: 450
     raytracing: 75
-    re2c: 11108
+    re2c: 11119
     reaction: 8
-    readline: 39076
+    readline: 39093
     reaxff: 8
     redis: 25
     regcache: 258
-    regex: 1848
+    regex: 1851
     rendering: 565
     replica: 8
     resource_manager: 60
@@ -531,10 +532,10 @@ develop:
     rocprofiler: 9
     rol: 532
     romio: 8788
-    romio-filesystem: 3046
+    romio-filesystem: 3048
     round: 207
-    rsh: 3046
-    rtree: 39007
+    rsh: 3048
+    rtree: 39021
     rythmos: 532
     sacado: 546
     sampler: 150
@@ -542,25 +543,25 @@ develop:
     scalars: 136
     scamac: 30
     scheduler: 294
-    schedulers: 3046
+    schedulers: 3048
     scoping: 28
-    scotch: 97
+    scotch: 98
     scr: 7
     scr_config: 60
     sensei: 67
     separable_compilation: 147
-    serial: 2766
-    serialization: 1868
+    serial: 2769
+    serialization: 1871
     serializer: 181
     serve: 1947
     shards: 532
-    shared: 393720
-    shlib_symbol_version: 1174
+    shared: 393918
+    shlib_symbol_version: 1185
     shock: 8
     shylu: 483
-    signals: 1500
+    signals: 1503
     signatures: 47
-    sigsegv: 26948
+    sigsegv: 26961
     silo: 84
     simmodsuite: 50
     simmodsuite_version_check: 50
@@ -570,76 +571,76 @@ develop:
     slepc: 29
     sm: 336
     smm: 230
-    snappy: 810
-    source: 68
+    snappy: 813
+    source: 69
     spath: 166
     sph: 8
     spin: 8
     sql: 34
     sqlalchemy: 13
-    sqlite3: 38949
+    sqlite3: 38963
     squashfuse: 51
-    src: 1356
+    src: 1362
     srd: 8
     ssc: 168
-    ssh: 1508
-    ssl: 38910
-    sst: 961
+    ssh: 1514
+    ssl: 38924
+    sst: 963
     stack_size: 30
     stackguard: 450
     stackstart: 7
     stacktrace: 1586
     staging: 52
-    static: 4403
+    static: 4410
     static_modules: 74
     stdczero: 13
     stk: 532
-    stl: 47216
+    stl: 47237
     stokhos: 381
     stratimikos: 532
     strip: 44
-    subtree: 13182
+    subtree: 13185
     suite-sparse: 76
     sundials: 35
     superlu-dist: 1001
     suphandling: 19
     sve: 36
     sycl: 121
-    symbol_suffix: 10169
+    symbol_suffix: 10175
     symbols: 90
     symengine: 11
     syscall: 62
     sysconfdir: 185
-    system: 3136
-    sz: 1115
+    system: 3141
+    sz: 1117
     sz3: 17
     szip: 761
     tally: 8
-    tar: 40598
-    targets: 1174
+    tar: 40616
+    targets: 1185
     tbb: 27
     tcmalloc: 173
     teko: 358
     tempus: 532
     tensile: 48
     tensor_ops: 59
-    tensorpipe: 1057
-    termlib: 47902
-    test: 2186
+    tensorpipe: 1059
+    termlib: 47923
+    test: 2189
     tests: 2460
     tetgen: 21
-    thread: 2817
+    thread: 2822
     thread_safe: 18
-    threads: 58891
+    threads: 58922
     threadsafe: 714
     thunder: 1013
     thyra: 532
     tiff: 858
-    timer: 2104
+    timer: 2107
     timing: 94
-    tls: 32205
-    tm: 1554
-    toml: 14304
+    tls: 32222
+    tm: 1556
+    toml: 14307
     toolkit: 24
     tools: 3558
     tpetra: 546
@@ -658,41 +659,41 @@ develop:
     unix: 17
     unstructured: 94
     use_vtkm: 319
-    utf: 1847
-    utilities: 1878
+    utf: 1853
+    utilities: 1880
     utils: 129
-    uuid: 38876
-    valgrind: 1057
+    uuid: 38890
+    valgrind: 1059
     veloc: 107
     version3: 253
-    version_suffix: 1174
+    version_suffix: 1185
     viewer: 61
-    visibility: 3349
+    visibility: 3354
     visit: 42
     volumes: 83
     voronoi: 8
     voropp: 21
-    vt: 3046
+    vt: 3048
     vtkh: 227
     vtkm: 142
-    wave: 617
+    wave: 620
     weak_backtrace: 1366
     wrapper: 459
-    wrapper-rpath: 3046
+    wrapper-rpath: 3048
     wrapperrpath: 308
     wrappers: 816
-    xar: 2599
+    xar: 2603
     xla: 137
-    xnnpack: 1441
-    xz: 41598
+    xnnpack: 1444
+    xz: 41616
     yaff: 8
     ze: 7
-    zfp: 1255
-    zip: 40637
-    zlib: 44520
+    zfp: 1257
+    zip: 40655
+    zlib: 44537
     zoltan: 532
     zoltan2: 358
-    zstd: 1661
+    zstd: 1664
 develop-2023-05-14:
   compilers:
     clang@14.0.0: 4
